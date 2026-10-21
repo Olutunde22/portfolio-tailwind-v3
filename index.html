@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-theme="ember">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0b" />
+
+    <title>Olutunde Solabi — Senior Frontend Engineer</title>
+    <meta
+      name="description"
+      content="Senior Frontend Engineer specializing in scalable, high-performing, and accessible web applications. Expert in React, Next.js, TypeScript, and modern web technologies."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://olutunde.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Olutunde" />
+    <meta property="og:url" content="https://olutunde.dev/" />
+    <meta property="og:title" content="Olutunde Solabi — Senior Frontend Engineer" />
+    <meta
+      property="og:description"
+      content="Senior Frontend Engineer specializing in scalable, high-performing, and accessible web applications."
+    />
+    <meta property="og:image" content="https://olutunde.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Olutunde Solabi — Senior Frontend Engineer" />
+    <meta name="twitter:image" content="https://olutunde.dev/og-image.png" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Schibsted+Grotesk:wght@400..900&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Apply the saved theme before first paint so there's no flash. -->
+    <script>
+      (function () {
+        var themes = { ember: 1, phosphor: 1, amber: 1, dracula: 1, paper: 1 };
+        try {
+          var saved = localStorage.getItem("portfolio-theme");
+          if (saved && themes[saved]) document.documentElement.dataset.theme = saved;
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olutunde Solabi",
+        "url": "https://olutunde.dev",
+        "image": "https://olutunde.dev/icon.png",
+        "description": "Senior Frontend Engineer specializing in scalable, high-performing, and accessible web applications.",
+        "sameAs": ["https://github.com/Olutunde22", "https://www.linkedin.com/in/tunde-solabi/"]
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <style>
+        [data-reveal],
+        [data-boot-line] {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
